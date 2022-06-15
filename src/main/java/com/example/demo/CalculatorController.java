@@ -22,6 +22,7 @@ public class CalculatorController {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
         }
     }
+    //this is just a Test
 
     @RequestMapping("mult")
     public int mult(@RequestParam int a, @RequestParam int b) {
